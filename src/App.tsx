@@ -20,7 +20,7 @@ const App:React.FC = () =>{
   }
 
   return (
-    <div className="App lg:w-[80%] xs:w-[100%] mx-auto pt-[10%] font-robotoMono min-h-screen overflow-auto flex flex-col items-center gap-y-7">
+    <div className="App lg:w-[80%] xs:w-[100%] mx-auto pt-[5%] font-robotoMono min-h-screen overflow-auto flex flex-col items-center gap-y-7">
       <h1 className='text-[50px] text-white'>TODO</h1>
       <InputField todo={todo} setTodo = {setTodo}  handleAdd = {handleAdd} />
       <ToDoDisplay tododo={tododo} setTododo = {setTododo} />
